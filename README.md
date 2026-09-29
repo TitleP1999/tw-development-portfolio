@@ -1,10 +1,27 @@
-# TW Development V2
+# TW Development
 
-Premium animated portfolio landing page.
+Responsive portfolio website built with Next.js, React, and TypeScript.
+
+## Local development
 
 ```bash
 npm install
 npm run dev
 ```
 
-Replace the current project folder contents with this version (keep your existing `.git` folder), test locally, then commit and push to `main`. Vercel will redeploy automatically.
+## Production
+
+```bash
+npm run build
+npm start
+```
+
+Development output uses `.next-dev/`; production builds use `.next-build/` so the two processes do not overwrite each other.
+
+## Portfolio content
+
+The featured Suparerk Steel project links to https://sp-steel-six.vercel.app/.
+Its project illustration uses the warehouse photo from the Suparerk project and a styled preview, not a screenshot of the live site.
+
+Edit page content in `app/page.tsx` and styling in `app/globals.css`.
+Local Prompt fonts are distributed with their license in `public/fonts/OFL-Prompt.txt`.
