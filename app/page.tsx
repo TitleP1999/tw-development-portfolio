@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowDown, ArrowRight, ArrowUpRight, Bug, Check, Code2, Database, Globe, Mail, Menu, Phone, Server, Smartphone, X } from "lucide-react";
+import { ArrowDown, ArrowRight, ArrowUpRight, Bug, Check, Code2, Database, Facebook, Globe, Menu, Phone, Server, Smartphone, X } from "lucide-react";
 import { useState } from "react";
 
 const services = [
@@ -56,7 +56,7 @@ export default function Home() {
 
     <section id="process" className="section container"><div className="section-heading"><div><p className="eyebrow">03 — HOW WE WORK</p><h2>ทำงานด้วยกัน<span className="accent">ง่าย ๆ.</span></h2></div><p>คุยกันตรงไปตรงมา<br/>เห็นภาพเดียวกันในทุกขั้นตอน</p></div><div className="process-grid">{process.map(([n, title, description]) => <article key={n}><div className="process-number"><span>{n}</span><ArrowRight size={20}/></div><h3>{title}</h3><p>{description}</p></article>)}</div></section>
 
-    <section id="contact" className="contact-section"><div className="container contact-inner"><div><p className="eyebrow">HAVE SOMETHING IN MIND?</p><h2>มาเริ่มสร้าง<br/>สิ่งดี ๆ <span>ด้วยกัน.</span><ArrowUpRight className="contact-arrow" aria-hidden="true"/></h2><p>มีไอเดีย หรือมีปัญหาที่อยากให้เราช่วย?<br/>ส่งรายละเอียดมาคุยและประเมินขอบเขตงานกันก่อนได้ครับ</p></div><div className="contact-links"><a href="mailto:twdev.contact@gmail.com"><span><Mail size={20}/> EMAIL US</span><strong>twdev.contact@gmail.com</strong><ArrowUpRight size={22}/></a><a href="tel:0892019192"><span><Phone size={19}/> CALL US</span><strong>089 201 9192</strong><ArrowUpRight size={22}/></a><a href="tel:0616591993"><span><Phone size={19}/> CALL US</span><strong>061 659 1993</strong><ArrowUpRight size={22}/></a></div></div></section>
+    <section id="contact" className="contact-section"><div className="container contact-inner"><div><p className="eyebrow">HAVE SOMETHING IN MIND?</p><h2>มาเริ่มสร้าง<br/>สิ่งดี ๆ <span>ด้วยกัน.</span><ArrowUpRight className="contact-arrow" aria-hidden="true"/></h2><p>มีไอเดีย หรือมีปัญหาที่อยากให้เราช่วย?<br/>ส่งรายละเอียดมาคุยและประเมินขอบเขตงานกันก่อนได้ครับ</p></div><div className="contact-links"><a href="https://www.facebook.com/profile.php?id=61594531300225" target="_blank" rel="noopener noreferrer"><span><Facebook size={20}/> FACEBOOK</span><strong>TW Development</strong><ArrowUpRight size={22}/></a><a href="tel:0892019192"><span><Phone size={19}/> CALL US</span><strong>089 201 9192</strong><ArrowUpRight size={22}/></a><a href="tel:0616591993"><span><Phone size={19}/> CALL US</span><strong>061 659 1993</strong><ArrowUpRight size={22}/></a></div></div></section>
     <footer className="container footer"><a className="logo" href="#top">tw<span className="logo-light">development</span><i/></a><span>© 2026 TW Development. Made with intention.</span><a href="#top">กลับด้านบน <ArrowUpRight size={15}/></a></footer>
   </main>;
 }
