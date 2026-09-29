@@ -16,8 +16,6 @@ npm run build
 npm start
 ```
 
-Development output uses `.next-dev/`; production builds use `.next-build/` so the two processes do not overwrite each other.
-
 ## Portfolio content
 
 The featured Suparerk Steel project links to https://sp-steel-six.vercel.app/.
